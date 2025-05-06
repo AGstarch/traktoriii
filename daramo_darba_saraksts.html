@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--virsraksts-->
+   <h1>Darbu saraksts</h1>
+   
+   <!--checkbox krustins kas piemeram parada kadus darbus esi izdarijis kurus nēsi-->
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">art zemi</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> barot lopus </label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> tīrīt staļus</label><br>
+        <input type="checkbox" value="Submit">
+        <label for="vehicle3"> sēšana</label><br>
+        <input type="checkbox" value="Submit">
+        <label for="vehicle3">izdarīt mājas darbus </label><br>
+        
+        <button type="button">delete</button>
+
+
+<!--funkcija kas uzliek krustu un nonem vinu-->
+<script> src=""
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+    
+//saiste ar java script//
+
+ 
